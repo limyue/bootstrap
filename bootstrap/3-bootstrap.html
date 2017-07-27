@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<!---->
+	<script src="bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<style>
+		.container-fluid{background-color: #c1c1c1;}
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<!--单独的表单控件会被自动赋予一些全局样式。所有设置了 .form-control 类的 <input>、<textarea> 和 <select> 元素都将被默认设置宽度属性为 width: 100%;。 将 label 元素和前面提到的控件包裹在 .form-group 中可以获得最好的排列。-->
+			<div class="dropdowm">
+				<button class="btn btn-warning" data-toggle="dropdown ">
+					登陆<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li class="divider"></li>
+					<li><a href="#">3</a></li>
+				</ul>
+			</div>
+
+		<form action="" class="has-error ">
+	
+			<div class="form-group">
+				<label for="username">用户名</label>
+				<input type="text" name="username" id="username" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="username">用户名</label>
+				<input type="text" name="username" id="username" class="form-control">
+			</div>
+		</form>
+	<hr>
+		<form action="" class="form-horizontal">
+			<div class="form-group has-error">
+				<label for="username" class="col-sm-1 control-label"><span class="glyphicon glyphicon-user"></span></label>
+				<div class="col-sm-11">
+					<input type="text" name="username" id="username" class="form-control">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="input-group">
+					<span class="input-group-addon">@</span>
+					<input type="text" name="username" id="username" class="form-control">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="input-group">
+					<input type="text" name="username" id="username" class="form-control">
+					<span class="input-group-addon">搜索</span>
+				</div>
+			</div>
+			<div class="form-group has-error">
+				<label for="username" class="col-sm-2 control-label text-right">用户名</label>
+				<div class="col-sm-10">
+					<input type="text" name="username" id="username" class="form-control">
+				</div>
+			</div>
+			<div class="form-group has-error">
+				<label for="username" class="control-label">用户名</label>
+				<input type="text" name="username" id="username" class="form-control">
+			</div>
+			<div class="checkbox">
+			  <label>
+			    <input type="checkbox" value="">
+			    Option one is this and that&mdash;be sure to include why it's great
+			  </label>
+			</div>
+
+			<div class="form-group has-success has-feedback">
+				  <label class="control-label" for="inputGroupSuccess1">Input group with success</label>
+				  <div class="input-group">
+				    <span class="input-group-addon">@</span>
+				    <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">
+				  </div>
+				  <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+				  <span id="inputGroupSuccess1Status" class="sr-only">(success)</span>
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-default">（默认样式）Default</button>
+				<input type="button" value="点击" class="btn btn-warning active">
+				<a href="#" class="btn btn-primary active btn-xs" disabled="disabled">链接按钮</a>
+				<a href="#" class="btn btn-primary active" role="button">链接</a>
+			</div>
+
+			<select class="form-control">
+			  <option>1</option>
+			  <option>2</option>
+			</select>
+
+
+		</form>
+		<div class="row">
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		  <div class="col-md-1">.col-md-1</div>
+		</div>
+		<div class="row" style="border:1px solid red">
+		  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-md-8</div>
+		  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-md-8</div>
+		  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-md-8</div>
+		  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-md-8</div>
+		  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-md-8</div>
+		  <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">.col-md-4</div>
+		</div>
+		<div class="row" style="border:1px solid red">
+		  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+				<img src="" alt="图片" class="img-responsive text-center">
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+		  </div>
+		  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+				<img src="" alt="图片" class="img-responsive text-center">
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+		  </div>
+		  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+				<img src="" alt="图片" class="img-responsive text-center">
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+				<p class="text-center">11111111111111111111111111111111111</p>
+		  </div>
+		</div>
+
+		<div class="row">
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+		  		<div class="thumbnail">        <!-- 圆角边框 -->
+			  		<img src="" alt="说明">
+			  		<div class="caption">      <!-- 移动式标题 -->
+			  			<h3>标题</h3>
+			  			<p>内容</p>
+			  			<p>内容</p>
+			  		</div>
+			  		<button class="btn btn-warning">点击按钮去看看</button>
+		  		</div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+			<div class="thumbnail">        <!-- 圆角边框 -->
+			  		<img src="" alt="说明">
+			  		<div class="caption">      <!-- 移动式标题 -->
+			  			<h3 class="btn-success">标题</h3>
+			  			<p>内容</p>
+			  			<p>内容</p>
+			  		</div>
+			  		<button class="btn btn-warning">点击按钮去看看</button>
+		  		</div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+			<div class="thumbnail">        <!-- 圆角边框 -->
+			  		<img src="" alt="说明">
+			  		<div class="caption">      <!-- 移动式标题 -->
+			  			<h3>标题</h3>
+			  			<p>内容</p>
+			  			<p>内容</p>
+			  		</div>
+			  		<button class="btn btn-warning">点击按钮去看看</button>
+		  		</div>
+		  </div>
+		</div>
+	</div>
+</body>
+</html>
